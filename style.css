@@ -62,3 +62,46 @@ header .wrapper .btn{
 header .wrapper .btn:hover{
     background-color: #5aeb68;
 }
+/* Hero section */
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero .wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .wrapper .left h1{
+    font-size: 54px;
+    font-weight: 800;
+}
+.hero .wrapper .left span{
+    font-size: 54px;
+    font-weight: 800;
+    color: #39DB4A;
+    font-family: "Permanent Marker", cursive;
+}
+.hero .wrapper .left p{
+    font-size: 15px;
+    color: #6f6d6d;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.hero .wrapper .left a{
+    padding: 5px 20px;
+    background-color: #39DB4A;
+    color: #fff;
+    border-radius: 30px;
+}
+.hero .wrapper .left a:hover{
+    background-color: #5aeb68;
+}
+
+.hero .wrapper .right img{
+    width: 500px;
+}
