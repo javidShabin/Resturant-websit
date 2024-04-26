@@ -12,3 +12,53 @@
 ol, ul {
 	list-style: none;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header section */
+header{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+header .wrapper{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .wrapper .nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .wrapper .nav-container img{
+    width: 110px;
+}
+
+header .wrapper ul{
+    margin-left: 15rem;
+    display: flex;
+}
+header .wrapper ul li{
+    margin-right: 3rem;
+    font-weight: 500;
+}
+header .wrapper ul li a{
+    font-weight: 500;
+    color: #000;
+}
+header .wrapper ul li a:hover{
+    color: #39DB4A;
+}
+header .wrapper .btn{
+    padding: 5px 20px;
+    background-color: #39DB4A;
+    color: #fff;
+    border-radius: 30px;
+}
+header .wrapper .btn:hover{
+    background-color: #5aeb68;
+}
