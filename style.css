@@ -105,3 +105,59 @@ header .wrapper .btn:hover{
 .hero .wrapper .right img{
     width: 500px;
 }
+/* catagories section */
+.catagory{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catagory .wrapper{
+    width: 90%;
+}
+.catagory .wrapper .text{
+    margin-left: 38rem;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #f44545;
+}
+.catagory .wrapper h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
+.card-container .card{
+    width: 200px;
+    height: 200px;
+    border-radius: 35px;
+    box-shadow: 10px 10px 10px 15px rgba(0, 0, 0, 0.07);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card-container .card .card-img{
+    background-color: #C1F1C6;
+    padding: 13px 3px;
+    border-radius: 50%;
+}
+.card-container .card .card-img img{
+    width: 100px;
+}
+.card-container .card h3{
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.card-container .card span{
+    font-size: 14px;
+    color: #6f6d6d;
+}
