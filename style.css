@@ -169,8 +169,7 @@ header .wrapper .btn:hover{
 
 /* Dishes section */
 .dishes{
-    margin-top: 6rem;
-    
+    margin-top: 10rem;
 }
 .dishes .wrapper{
     width: 90%;
@@ -222,7 +221,8 @@ header .wrapper .btn:hover{
 .about{
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    align-items: center;
+    padding: 9rem 0;
 }
 
 .about .wrapper{
@@ -230,10 +230,10 @@ header .wrapper .btn:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 6rem;
+    padding: 0 8rem;
 }
 .about .wrapper .left img{
-    width: 300px;
+    width: 350px;
 }
 .about .wrapper .right span{
     font-size: 13px;
