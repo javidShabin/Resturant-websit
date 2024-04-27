@@ -74,6 +74,7 @@ header .wrapper .btn:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 5rem;
 }
 
 .hero .wrapper .left h1{
@@ -162,4 +163,55 @@ header .wrapper .btn:hover{
 .card-container .card span{
     font-size: 14px;
     color: #6f6d6d;
+}
+
+/* Dishes section */
+.dishes{
+    margin-top: 6rem;
+    
+}
+.dishes .wrapper{
+    width: 90%;
+    margin-top: 40px;
+}
+.dishes .wrapper .dish-text{
+    margin-left: 17rem;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #f44545;
+}
+.dishes .wrapper h1{
+    margin-top: 30px;
+    margin-left: 17rem;
+    text-align: start;
+    font-size: 40px;
+    font-weight: 600;
+}
+.dishes .card-dishes{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 13rem;
+    margin-left: 50px;
+}
+.dishes .card-dishes .card{
+    width: 250px;
+    height: 250px;
+    border-radius: 35px;
+    box-shadow: 1px 1px 35px 2px rgba(0, 0, 0, 0.09);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dishes .card-dishes .card img{
+    width: 150px;
+}
+.dishes .card-dishes .card h3{
+    font-size: 16px;
+    font-weight: 600;
+}.dishes .card-dishes .card .dish-span{
+    font-size: 13px;
+    font-weight: 400;
 }
