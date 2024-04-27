@@ -254,3 +254,46 @@ header .wrapper .btn:hover{
     color: #6f6d6d;
     line-height: 1.5rem;
 }
+
+/* Footer section */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7rem;
+}
+footer .wrapper{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+}
+footer .wrapper img{
+    width: 110px;
+}
+
+footer .wrapper p{
+    margin-top: 20px;
+    color: #6f6d6d;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+footer .wrapper h3{
+    color: #000;
+    font-weight: 600;
+}
+footer .wrapper ul{
+    margin-top: 50px;
+}
+footer .wrapper .t-list{
+    margin-bottom: 35px;
+}
+footer .wrapper li{
+    margin-top: 20px;
+}
+footer .wrapper li a{
+    font-weight: 500;
+    color: #6f6d6d;
+}
