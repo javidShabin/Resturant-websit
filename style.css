@@ -120,12 +120,13 @@ header .wrapper .btn:hover{
 }
 .catagory .wrapper .text{
     margin-left: 38rem;
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 3px;
     font-weight: 600;
     color: #f44545;
 }
 .catagory .wrapper h1{
+    margin-top: 10px;
     text-align: center;
     font-size: 40px;
     font-weight: 600;
@@ -177,7 +178,7 @@ header .wrapper .btn:hover{
 }
 .dishes .wrapper .dish-text{
     margin-left: 18rem;
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 3px;
     font-weight: 600;
     color: #f44545;
@@ -215,4 +216,41 @@ header .wrapper .btn:hover{
 }.dishes .card-dishes .card .dish-span{
     font-size: 13px;
     font-weight: 400;
+}
+
+/* About section */
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.about .wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+}
+.about .wrapper .left img{
+    width: 300px;
+}
+.about .wrapper .right span{
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #f44545;
+    
+}
+.about .wrapper .right h1{
+    margin-top: 29px;
+    text-align: start;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+.about .wrapper .right p{
+    margin-top: 29px;
+    color: #6f6d6d;
+    line-height: 1.5rem;
 }
